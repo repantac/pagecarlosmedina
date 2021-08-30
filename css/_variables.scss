@@ -1,0 +1,25 @@
+/*Variables de texto*/
+$h1-size: 3em; /*Título principal*/
+$h2-size: 2.2em; /*Subtítulo principal*/
+$h3-size: 1.9em; /*Subtítulo de texto*/
+$text-size: 1.3em; /*Contenido*/
+$button-text-size: 0.8em; /*Texto botones*/
+$body-lineheight: 2.2; /*Altura entre líneas de texto*/
+$fontweight-text: 400; /*Grosor letra del contenido*/
+$fontweight-h1: 800; /*Grosor letra del título principal*/
+$fontweight-h2: 700; /*Grosor letra de subtítulos*/
+$ffamily: monospace; /*tipo de letra*/
+
+/*Variables de color*/
+$color-headings: #fff; /*Color de título principal*/
+$color-highlight: #596CAD; /*Color de texto resaltado*/
+$color-texto:#000; /*Color de subtítulos y texto de contenido*/
+$button-background: #427FA7; /*Color de fondo de botones*/
+$button-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; /*Sombra gris de botones*/
+$button-rainbow: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2); /*Sombra de color de botones*/
+$footerBG: #808080; /*Fondo del Footer*/
+$text-shadow:4px 4px 7px rgba(150, 150, 150, 1); /*Sombra de texto*/
+$picture-shadow: 2px 21px 15px -6px #A5A5A5; /*Sombra de imágenes*/
+$index-banner:linear-gradient(120deg, rgba(113, 136, 223, 0.699) 0%, rgba(17, 213, 207, 0.692) 100%); /*Color header de Index*/
+$section-header: linear-gradient(0deg, rgb(255,255,255),rgb(40, 144, 172)); /*Color header de las demás secciones*/
+

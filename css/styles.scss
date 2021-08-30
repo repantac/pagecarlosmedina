@@ -1,0 +1,139 @@
+@import "variables";
+@import "navbar";
+@import "cards";
+@import "buttons";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: $ffamily;
+    font-size: $text-size;
+    font-weight: $fontweight-text;
+    color: $color-texto;
+    line-height: $body-lineheight;
+}
+
+/*Padding entre secciones*/
+.height-u-d {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+/*Links*/
+.links a {
+    text-decoration: none;
+    font-family: $ffamily;
+    font-weight: $fontweight-h2;
+    color: $color-highlight;
+}
+
+/*títulos*/
+h1{
+    font-size: $h1-size;
+    font-weight: $fontweight-h1;
+    text-align: center;
+}
+h2{
+    font-size: $h2-size;
+    font-weight: $fontweight-h2;
+    text-align: center;
+}
+h3 {
+    font-weight: $fontweight-h2;
+    font-size: $h3-size;
+    color: $color-highlight;
+}
+@media all and (max-width: 767px) {
+    h1{
+        font-size: 1.7em;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+    h3 {
+        font-size: 0.95em;
+    }
+}/*Fin títulos*/
+
+
+/*Index header*/
+#header {
+    .head-banner{
+        background-image: $index-banner, url("../multimedia/fondo.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+    }
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color-headings;
+        font-family: $ffamily;
+        padding-top: 70px;
+    }
+    .header-banner{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    @media all and (max-width: 767px)  {
+        .header-text h2 {
+            display: none;
+        }
+    }
+}/*fin Index header*/
+
+/*Seccion 1*/
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .text-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-one h3{
+        text-decoration: none;
+        text-align: right;
+    }
+    .picture-one img{
+        border-radius: 50%;
+        box-shadow: $picture-shadow;
+    }
+    .picture {
+        width: 337px; 
+        height: 327px;
+    }
+    @media all and (max-width: 767px) {
+        .text-one h3{
+            text-decoration: none;
+            text-align: center;
+            font-size: $text-size;
+        }
+        .picture {
+            margin-left: 40px;
+            width: 267px; 
+            height: 257px;
+        }
+    }
+}/*Fin section 1*/
+
+

@@ -1,0 +1,30 @@
+/*Footer*/
+#footer {
+    background-color: $footerBG;
+    .social-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:35px;
+        .icon {
+            width: 30px;
+            height: 30px;
+            margin: 0px 20px;
+            cursor: pointer;
+            position: relative;
+        }
+        .icon::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: all 0.4s;
+        }
+        .icon:hover::before {opacity: 1;}
+        img {
+            transform: translateY(0);
+            transition: all 0.4s;
+        }
+        .icon:hover img{transform: translateY(-10px);}
+    }
+}/*Fin footer*/

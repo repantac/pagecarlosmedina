@@ -1,0 +1,121 @@
+/*Boton index.*/
+.button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+        width: 200px;
+        padding: 10px;
+        background-color: $button-background; /*Solo color sólido contra la sobra de colores*/
+        color: $color-headings;
+        border: none;
+        cursor: pointer;
+        border-radius: 28px;
+        font-family: $ffamily;
+        font-size: $button-text-size;
+        font-weight: $fontweight-h2;
+        letter-spacing: 3px;
+        box-shadow: $button-shadow; /*Sombra gris de botones*/
+        position: relative;
+    }
+
+    .btn:before {
+        content: '';
+        position: absolute;
+        top: -10%;
+        left: -5%;
+        width: 110%;
+        height: 120%;
+        border-radius: 50px;
+        z-index: -1;
+        background: $button-rainbow; /*Sombra de color de botones*/
+        transform: scale(0.8);
+        transition: transform .4s;
+    }
+
+    .btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $button-rainbow;
+        z-index: -2;
+        filter: blur(10px);
+        transform: scale(0.5);
+        transition: transform .4s;
+    }
+
+    .btn:hover::before, .btn:hover::after {
+        transform: scale(1);
+    }
+}
+.animate__animated.animate__headShake {
+    --animate-duration: 2s;
+}
+
+
+
+/*Botones cards*/
+.main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    width: 200px;
+    height: 55px;
+    padding: 5px;
+    position: relative;
+}
+
+.card-button {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(62, 25, 113),rgb(72, 105, 206));
+    border: none;
+    border-radius: 28px;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.4s;
+
+    a {
+        text-decoration: none;
+        color: $color-headings;
+        font-family: $ffamily;
+        font-size: $button-text-size;
+        font-weight: $fontweight-h2;
+        letter-spacing: 3px;
+    }
+}
+
+.card-button:hover {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.37);
+}
+
+.circle {
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #4a569d, #dc2424);
+    z-index: -50;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    top: 2%;
+    left: 180%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #4a569d, #dc2424);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+/*Botones cards*/

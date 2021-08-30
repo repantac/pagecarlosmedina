@@ -1,0 +1,56 @@
+/*Barra de navegación*/
+#navbar {
+    background-color: transparent !important;
+    .nav-item {
+        font-size: $text-size;
+        font-weight: $fontweight-h2;
+        color: $color-headings;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar-toggler {
+        color: rgba(255,255,255,.55);
+        border-color: #fff;
+        margin: 20px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: $color-highlight;
+    text-shadow: $text-shadow;
+}
+
+@media all and (max-width: 767px) and (min-width: 300px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-collapse {
+        font-size: 12px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media all and (max-width: 990px) and (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-collapse {
+        font-size: $text-size;
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+}
+/*Barra de navegación*/
