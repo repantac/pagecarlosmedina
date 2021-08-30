@@ -66,6 +66,8 @@ h3 {
 
 /*Index header*/
 #header {
+    width: 100%;
+    height: 70vh;
     .head-banner{
         background-image: $index-banner, url("../multimedia/fondo.jpg");
         width: 100%;

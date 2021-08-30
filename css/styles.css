@@ -67,7 +67,7 @@
   }
   .navbar-collapse {
     font-size: 0.9em;
-    padding-bottom: 150px;
+    padding-bottom: 200 0px;
   }
 }
 
@@ -91,7 +91,7 @@
             justify-content: center;
   }
   .navbar-collapse {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding-top: 50px;
     padding-bottom: 200px;
   }
@@ -158,7 +158,7 @@
 .button .btn {
   width: 200px;
   padding: 10px;
-  background-color: #427FA7;
+  background-color: #7786BB;
   /*Solo color sólido contra la sobra de colores*/
   color: #fff;
   border: none;
@@ -414,6 +414,11 @@ h3 {
 
 /*Fin títulos*/
 /*Index header*/
+#header {
+  width: 100%;
+  height: 70vh;
+}
+
 #header .head-banner {
   background-image: linear-gradient(120deg, rgba(113, 136, 223, 0.699) 0%, rgba(17, 213, 207, 0.692) 100%), url("../multimedia/fondo.jpg");
   width: 100%;

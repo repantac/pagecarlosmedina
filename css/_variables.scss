@@ -14,7 +14,7 @@ $ffamily: monospace; /*tipo de letra*/
 $color-headings: #fff; /*Color de título principal*/
 $color-highlight: #596CAD; /*Color de texto resaltado*/
 $color-texto:#000; /*Color de subtítulos y texto de contenido*/
-$button-background: #427FA7; /*Color de fondo de botones*/
+$button-background: linear-gradient(90deg, rgb(62, 25, 113),rgb(72, 105, 206)); /*Color de fondo de botones*/
 $button-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; /*Sombra gris de botones*/
 $button-rainbow: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2); /*Sombra de color de botones*/
 $footerBG: #808080; /*Fondo del Footer*/

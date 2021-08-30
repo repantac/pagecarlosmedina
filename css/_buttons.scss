@@ -7,7 +7,7 @@
     .btn {
         width: 200px;
         padding: 10px;
-        background-color: $button-background; /*Solo color sólido contra la sobra de colores*/
+        background-color: #7786BB; /*Solo color sólido contra la sobra de colores*/
         color: $color-headings;
         border: none;
         cursor: pointer;
@@ -75,7 +75,7 @@
 .card-button {
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgb(62, 25, 113),rgb(72, 105, 206));
+    background: $button-background;
     border: none;
     border-radius: 28px;
     outline: none;
