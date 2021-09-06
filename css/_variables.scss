@@ -1,14 +1,14 @@
 /*Variables de texto*/
-$h1-size: 3em; /*Título principal*/
-$h2-size: 2.2em; /*Subtítulo principal*/
-$h3-size: 1.9em; /*Subtítulo de texto*/
-$text-size: 1.3em; /*Contenido*/
-$button-text-size: 0.8em; /*Texto botones*/
+$h1-size: 2.5rem; /*Título principal*/
+$h2-size: 2.2rem; /*Subtítulo principal*/
+$h3-size: 2rem; /*Subtítulo de texto*/
+$text-size: 1.2rem; /*Contenido*/
+$button-text-size: 0.8rem; /*Texto botones*/
 $body-lineheight: 2.2; /*Altura entre líneas de texto*/
 $fontweight-text: 400; /*Grosor letra del contenido*/
 $fontweight-h1: 800; /*Grosor letra del título principal*/
 $fontweight-h2: 700; /*Grosor letra de subtítulos*/
-$ffamily: monospace; /*tipo de letra*/
+$ffamily: 'IBM Plex Sans Arabic', sans-serif; /*tipo de letra*/
 
 /*Variables de color*/
 $color-headings: #fff; /*Color de título principal*/

@@ -49,6 +49,10 @@ h3 {
     font-weight: $fontweight-h2;
     font-size: $h3-size;
     color: $color-highlight;
+    text-align: center;
+}
+p {
+    padding: 15px;
 }
 @media all and (max-width: 767px) {
     h1{
@@ -137,5 +141,3 @@ h3 {
         }
     }
 }/*Fin section 1*/
-
-
